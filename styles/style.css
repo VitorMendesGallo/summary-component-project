@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Hanken Grotesk" ;
+    src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+:root{
+    --default-font:"Hanken Grotesk";
+    
+}
