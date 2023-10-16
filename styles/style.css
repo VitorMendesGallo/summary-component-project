@@ -102,3 +102,31 @@ div.results p {
   width: 250px ;
   margin-bottom: 15px ;
 }
+
+
+/* summary */
+
+div.summary{
+  padding: 20px 40px ;
+}
+
+div.summary > h1 {
+  color: var(--dark-gray-blue);
+}
+
+div.summary-punctuation {
+  margin: 20px 0px ;
+  display: flex;
+  flex-direction: column;
+  gap: 20px ;
+}
+
+div.reaction{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(0, 100%, 67%, 0.105);
+  border-radius: 10px ;
+  border: solid 1px var(--light-red);
+}
+
