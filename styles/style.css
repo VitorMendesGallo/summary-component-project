@@ -113,8 +113,46 @@ div.summary > h1 {
   color: var(--dark-gray-blue);
 }
 
-.summary-item{
+.summary-punctuation {
+  margin-bottom: 25px ;
+}
+
+.summary-item {
   display: grid;
-  grid-template-columns: 30px calc(100% - 110px) 80px ;
-  margin-top: 20px ;
+  grid-template-columns: 30px calc(100% - 110px) 80px;
+  margin-top: 20px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.105);
+  color: var(--light-red);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.105);
+  color: var(--orangey-yellow);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.105);
+  color: var(--green-teal);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.105);
+  color: var(--cobalt-blue);
+}
+
+.percentage {
+  color: var(--dark-gray-blue);
+  font-weight: 700;
+}
+
+.percentage::after {
+  content: " / 100";
+  color: hsla(224, 30%, 27%, 0.5);
 }
